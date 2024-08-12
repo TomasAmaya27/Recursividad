@@ -1,13 +1,14 @@
-fun numerosDesc(n: int) {
-    if (n <= 0)
+<pre>fun numerosDesc(n:Int) {
+    if (n<=0)
     {
         return
         }
-    printIn(n)
-    numerosDesc(n - 1)
+    println(n)
+    numerosDesc(n-1)
     }
-fun main ()
+fun main()
 {
-    val num = 5
+    val num=5
     numerosDesc(num)
    }  
+</pre>
